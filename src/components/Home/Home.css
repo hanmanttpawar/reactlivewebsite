@@ -1,0 +1,46 @@
+.home {
+  height: max-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.sidebar_container {
+  padding-inline: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.sidebar {
+  width: 20vw;
+  min-width: 12rem;
+  margin-top: 2rem;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(85, 87, 88, 0.15);
+  border-radius: 20px;
+}
+
+.country {
+  border-radius: 12px;
+  line-height: 2rem;
+  padding-left: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.country:hover {
+  background-color: #f16621;
+}
+
+.event {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 2rem;
+  gap: 3rem;
+}
